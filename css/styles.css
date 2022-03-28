@@ -1,0 +1,65 @@
+.link {text-decoration: none; color:inherit; font-size: 14px; letter-spacing: 0.02em; font-weight: 500; }
+.link:hover{color:#2196f3;}
+.link:focus{color: #2196f3;}
+
+.portfolio-button{background-color: #f5f4fa; color:inherit;}
+.portfolio-button:hover{
+    background-color: #2196f3; color:#FFFFFF; cursor:pointer;
+}
+.portfolio-button:focus{background-color: #2196f3; color:#FFFFFF;}
+
+.kontakt {color:#757575;}
+.first-header {font-size: 44px; letter-spacing: 0.06em; line-height: 0.6; color:#ffffff; font-weight: 900;}
+.main-button {
+    color:#ffffff;
+    background-color: #2196f3;
+    width:200px; height:50px; 
+    font-size:16px; 
+    font-weight: bold; 
+    cursor:pointer;}
+.logo {
+    font-family: 'Raleway', sans-serif; 
+    font-size: 26px; 
+    font-weight: 700;
+    font-weight: bold;
+     letter-spacing: 0.03em;}
+.logo span{color:#2196f3;}
+.hero-header {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.subheader {
+    font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+}
+.second-header{
+    font-weight: 700;
+    font-size: 36px;
+}
+.article-title{
+    font-weight: 500;
+    font-size: 16px;
+}
+.article-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+}
+.portarticle-title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.portarticle-subtitle{
+    font-size: 16px;
+    line-height:2 ;
+    color:#757575;
+}
+.adres{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+body {font-family:"Roboto", sans-serif; color:#212121; }
