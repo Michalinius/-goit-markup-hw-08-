@@ -1,65 +1,124 @@
-.link {text-decoration: none; color:inherit; font-size: 14px; letter-spacing: 0.02em; font-weight: 500; }
-.link:hover{color:#2196f3;}
-.link:focus{color: #2196f3;}
+/* Variables */
 
-.portfolio-button{background-color: #f5f4fa; color:inherit;}
-.portfolio-button:hover{
-    background-color: #2196f3; color:#FFFFFF; cursor:pointer;
+:root {
+    --main-color:#2196f3;
+    --main-text-color:#212121;
+    --portfolio-btns-color:#f5f4fa;
+    --contacts-color:#757575;
+    --white-color: white;
 }
-.portfolio-button:focus{background-color: #2196f3; color:#FFFFFF;}
 
-.kontakt {color:#757575;}
-.first-header {font-size: 44px; letter-spacing: 0.06em; line-height: 0.6; color:#ffffff; font-weight: 900;}
+
+.header-footer-links {
+    text-decoration: none; 
+    color:inherit; 
+    font-size: 14px; 
+    letter-spacing: 0.02em; 
+    font-weight: 500; 
+}
+
+.header-footer-links:hover {
+    color:var(--main-color);
+}
+.header-footer-links:focus {
+    color: var(--main-color);
+}
+
+.portfolio-button {
+    background-color: var(--portfolio-btns-color); color:inherit;
+}
+.portfolio-button:hover {
+    background-color: var(--main-color); 
+    color: var(--white-color); 
+    cursor:pointer;
+}
+
+.portfolio-button:focus {
+    background-color: var(--main-color);
+     color: var(--white-color);
+}
+
 .main-button {
-    color:#ffffff;
-    background-color: #2196f3;
+    color:var(--white-color);
+    background-color: var(--main-color);
     width:200px; height:50px; 
     font-size:16px; 
     font-weight: bold; 
-    cursor:pointer;}
+    cursor:pointer;
+}
+
+.kontakt {
+    color:var(--contacts-color);
+}
+
+.main-header {
+    font-size: 44px; 
+    letter-spacing: 0.06em; 
+    line-height: 0.6; 
+    color:var(); 
+    font-weight: 900;
+}
+
 .logo {
     font-family: 'Raleway', sans-serif; 
     font-size: 26px; 
     font-weight: 700;
     font-weight: bold;
-     letter-spacing: 0.03em;}
-.logo span{color:#2196f3;}
-.hero-header {
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    }
+
+.logo span {
+    color:var(--main-color);
+}
+
+.first-header {
     font-weight: 700;
     font-size: 14px;
     letter-spacing: 0.03em;
 }
+
 .subheader {
     font-weight: 400;
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
+
 .second-header{
     font-weight: 700;
     font-size: 36px;
 }
+
 .article-title{
     font-weight: 500;
     font-size: 16px;
 }
+
 .article-subtitle{
     font-weight: 400;
     font-size: 16px;
 }
+
 .portarticle-title{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
 }
+
 .portarticle-subtitle{
     font-size: 16px;
     line-height:2 ;
-    color:#757575;
+    color:var(--contacts-color);
 }
+
 .adres{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
 }
-body {font-family:"Roboto", sans-serif; color:#212121; }
+
+body {
+    font-family:"Roboto", sans-serif; 
+    color:var(--main-text-color); 
+}
