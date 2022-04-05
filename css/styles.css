@@ -8,6 +8,7 @@
     --white-color: white;
     --header-border-color:#ECECEC;
     --hero-background-color:#2f303a;
+    --portfolio-border-color:#EEEEEE;
 }
 
 body {
@@ -138,7 +139,12 @@ p {
 }
 
 .portfolio-button {
-    background-color: var(--portfolio-btns-color); color:inherit;
+    background-color: var(--portfolio-btns-color); 
+    color:inherit;
+    padding: 6px 22px;
+    margin-right: 8px;
+    border-radius: 4px;
+    border-style: none;
 }
 .portfolio-button:hover {
     background-color: var(--main-color); 
@@ -167,6 +173,8 @@ p {
     color:var(--contacts-color);
     font-style: normal;
 }
+
+
 
 .main-header {
     font-size: 44px; 
@@ -238,19 +246,19 @@ p {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    padding: 20px 24px 4px;
 }
 
 .portarticle-subtitle{
     font-size: 16px;
     line-height:2 ;
     color:var(--contacts-color);
+    padding: 0px 24px 20px;
 }
 
 .padding-out {
     padding-bottom: 0px;
 }
-
-
 
 .adres{
     font-weight: 400;
@@ -259,9 +267,28 @@ p {
     padding-top: 20px;
     color: var(--white-color);
     font-style: normal;
+    padding-bottom: 9px;
 }
 
 .footer {
     background-color: var(--hero-background-color);
     padding: 60px 0px 60px;
+}
+
+.portfolio-menu {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.portfolio-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.portfolio-images li {
+    border:1px solid var(--portfolio-border-color);
+    flex-basis: calc(100% / 3 -20px);
+    margin-bottom: 30px;
 }
