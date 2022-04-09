@@ -287,8 +287,17 @@ p {
     justify-content: space-between;
 }
 
+.portfolio-images-figure {
+    margin:0px;
+}
+
+.portfolio-images-figure figcaption {
+    margin-top: -4px;
+    border: 1px solid var(--portfolio-border-color);
+    border-top: none;
+}
+
 .portfolio-images li {
-    border:1px solid var(--portfolio-border-color);
     flex-basis: calc(100% / 3 -20px);
     margin-bottom: 30px;
 }
