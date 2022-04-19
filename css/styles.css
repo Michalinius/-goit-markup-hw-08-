@@ -140,7 +140,7 @@ p {
 }
 
 .hero {
-    width: 1600px;
+    max-width: 1600px;
     background-image:linear-gradient(var(--bg-overlay), var(--bg-overlay)), url("../images/studio/header-background.jpg");
     margin: 0px auto;
 }
