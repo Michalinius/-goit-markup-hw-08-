@@ -434,3 +434,39 @@ p {
     flex-basis: calc(100% / 3 -20px);
     margin-bottom: 30px;
 }
+
+
+.signatures-box {
+    position: relative;
+}
+
+.signatures-box > .signatures {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    width: 100%;
+    padding: 27px 0px;
+    position: absolute;
+    bottom: 0px;
+    left:50%;
+    transform: translateX(-50%);
+    margin-bottom: 3px;
+    background: rgba(47, 48, 58, 0.8);
+}
+
+.current-page::after {
+    position:relative;
+    top:28px;
+    content: "";
+    display: block;
+    width: 100%;
+    height:4px;
+    border-radius: 2px;
+    background-color:var(--main-color);
+}
