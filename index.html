@@ -39,7 +39,7 @@
                 <section class="section hero">
                     <div class="container">
                         <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA <br>DLA WASZEGO BIZNESU</h1>
-                        <button class="main-button" type="button">Zamów usługe</button>
+                        <button class="main-button" type="button" data-modal-open>Zamów usługe</button>
                     </div>
                 </section>
            <section class="section padding-out" >
@@ -340,6 +340,12 @@
             </div>
         </div>
     </footer>
+
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button type="button" class="close-btn" data-modal-close>X</button>
+        </div>
+    </div>
 
     <script src="./js/modal.js"></script>
 </body>
