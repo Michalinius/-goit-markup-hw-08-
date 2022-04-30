@@ -340,12 +340,69 @@
                     </li>
                 </ul>
             </div>
+            <div class="footer-form">
+                <form class="newsletter-form">
+                  <label class="newsletter-label">
+                    <p>Zapisz się do newslettera</p>
+                    <input class="newsletter-input" type="email" name="newsletter-email" placeholder="E-mail">
+                  </label>
+                  <button class="newsletter-button" type="submit">Zapisz się
+                    <svg class="newsletter-icon">
+                      <use href="images/icons.svg#icon-paperplane"></use>
+                  </svg>
+                  </button>
+                </form>
+              </div>
         </div>
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="close-btn" data-modal-close>X</button>
+            <h3>Zostaw swoje dane w formularzu poniżej</h3>
+            <form>
+                <label class="modal-label" for="">
+                    <p class="input-caption">Imie</p>
+                    <span class="icon-container">
+                        <input class="modal-input" type="text">
+                        <svg class="modal-form-icon" height="12px" width="12px">
+                            <use href="images/icons.svg#icon-person"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-label" for="">
+                    <p class="input-caption">Telefon</p>
+                    <span class="icon-container">
+                        <input class="modal-input" type="text">
+                        <svg class="modal-form-icon" height="13px" width="13px">
+                            <use href="images/icons.svg#icon-telephone"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-label" for="">
+                    <p class="input-caption">Email</p>
+                    <span class="icon-container">
+                        <input class="modal-input" type="text">
+                        <svg class="modal-form-icon" height="15px" width="12px">
+                            <use href="images/icons.svg#icon-blackmail"></use>
+                        </svg>
+                    </span>
+                </label>
+                <label class="modal-label" for="">
+                    <p class="input-caption">Komentarz</p>
+                    <textarea class="modal-input" placeholder="Wprowadź tekst"></textarea>
+                </label>
+                <input class="checkbox" type="checkbox" id="modal-checkbox">
+                <label class="modal-label" for="modal-checkbox">
+                    <span class="chekbox-container"></span>
+                    <p>Oświadczam iż akceptuję <a href="#">Regulamin</a> i <a href="#">Politykę Prywatności</a>.</p>
+                </label>
+                <button class="newsletter-button modal-form-button" type="submit">Wyślij</button>
+            </form>
+            <button type="button" class="close-btn" data-modal-close>
+                <svg  class="close-btn-icon">
+                    <use href="images/icons.svg#icon-close-btn"></use>
+                </svg>
+            </button>
         </div>
     </div>
 
