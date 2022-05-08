@@ -44,6 +44,8 @@ p {
     list-style: none;
 }
 
+
+
 .container {
     width: 1200px;
     margin: 0 auto;
@@ -139,13 +141,13 @@ p {
     margin-right: 46px;
 }
 
-.hero {
+.main-content {
     max-width: 1600px;
     background-image:linear-gradient(var(--bg-overlay), var(--bg-overlay)), url("../images/studio/header-background.jpg");
     margin: 0px auto;
 }
 
-.hero .container {
+.main-content .container {
     display: flex;
     flex-direction: column;
     padding: 106px 0px;
@@ -212,7 +214,7 @@ p {
 }
 
 
-.main-header {
+.main-content__header {
     font-size: 44px; 
     letter-spacing: 0.06em; 
     line-height: 1.36; 
