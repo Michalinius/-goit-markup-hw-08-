@@ -1,16 +1,17 @@
 @import "./utils/visualy-hidden";
 
+@import "./components/base";
 @import "./components/container";
 @import "./components/modal";
-@import "./components/base";
 @import "./components/header";
 @import "./components/logo";
 @import "./components/main";
-@import "./components/main-button";
 @import "./components/social-links";
 @import "./components/footer";
 @import "./components/portfolio";
 
 
 @import "./utils/vars";
+@import "./utils/current-page";
+
 

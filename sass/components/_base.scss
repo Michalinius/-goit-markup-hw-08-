@@ -19,6 +19,10 @@ li {
     padding:0;
 }
 
+a {
+    text-decoration: none;
+}
+
 p {
     padding:0;
     margin:0;
@@ -30,6 +34,13 @@ p {
 
 .section {
     padding: 94px 0px 94px;
+}
+
+.first-header {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    padding-bottom: 10px;
 }
 
 .second-header{

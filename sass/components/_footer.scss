@@ -1,9 +1,38 @@
+//logo & adres
+
 .footer {
     background-color: var(--hero-background-color);
     padding: 60px 0px 60px;
 }
 
-.footer-social p {
+.footer__addresses-list a {
+    display: block;
+    margin-bottom: 9px;
+}
+
+.footer__links {
+    color:var(--contacts-color);
+    font-style: normal;
+}
+
+.footer__addresses-list--adres{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    padding-top: 20px;
+    color: var(--white-color);
+    font-style: normal;
+    padding-bottom: 9px;
+}
+
+//socials
+
+
+.footer__social {
+    margin: 12px 0px 0px 70px;
+}
+
+.footer__social--caption {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -14,62 +43,45 @@
     color:var(--white-color)
 }
 
-.footer .footer-social {
-    margin: 12px 0px 0px 70px;
-}
-
-.footer-social .social-list {
+.footer__social .social-list {
     justify-content: flex-start;
     align-items: flex-end;
     padding: 20px 0px 0px 0px;
 }
 
-.footer-social .social-list-item:not(:last-child) {
+.social-list__item {
     margin-right: 10px;
 }
 
-.footer-social .social-list-link {
+.footer__social .social-list__link {
     background-color: rgba(255, 255, 255, 0.1);
     fill:var(--white-color)
 }
 
-.footer-social .social-list-link:hover,
-.footer-social .social-list-link:active {
+.footer__social .social-list__link:hover,
+.footer__social .social-list__link:active {
     background-color: var(--main-color);
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.adres{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    padding-top: 20px;
-    color: var(--white-color);
-    font-style: normal;
-    padding-bottom: 9px;
-}
 
-address [href] {
-    display: block;
-    margin-bottom: 9px;
-}
 
-.footer-form {
+.newsletter {
     padding-left: 78px;
     /* padding-bottom: 72px; */
     
 }
 
-.newsletter-form {
+.newsletter__form {
     display: flex;
     flex-wrap: wrap;
 }
 
-.newsletter-label {
+.newsletter__label {
     display: block;
 }
 
-.newsletter-input::placeholder {
+.newsletter__input::placeholder {
       
     font-family: 'Roboto';
     font-style: normal;
@@ -85,7 +97,7 @@ address [href] {
     
 }
 
-.newsletter-label p {
+.newsletter__label p {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -97,7 +109,7 @@ address [href] {
     margin-top: 12px;
 }
 
-.newsletter-input {
+.newsletter__input {
     width: 358px;
     height: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -111,7 +123,7 @@ address [href] {
 
 }
 
-.newsletter-button {
+.newsletter__button {
     width: 200px;
     height:50px;
     align-self: flex-end;
@@ -134,7 +146,7 @@ address [href] {
     color: #FFFFFF;
 }
 
-.newsletter-icon {
+.newsletter__icon {
     width: 24px;
     height: 24px;
     margin-left: 24px;
