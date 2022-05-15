@@ -1,11 +1,13 @@
 .header {
+    min-width: 100%;
     border-bottom: 1px solid var(--header-border-color);
 
 
     &__navigation {
-        display: flex;
+        display: none;
         align-items: center;
         margin: 32px 345px 32px 0px;
+        
     }
 
     &__navigation-item:not(:last-child) {
@@ -29,16 +31,72 @@
 }
 
 .kontakt {
-    color:var(--contacts-color);
-    font-style: normal;
+    display: none;
+}
+
+// .kontakt {
+//     color:var(--contacts-color);
+//     font-style: normal;
     
 
-    &__icon {
+//     &__icon {
+//         margin-right: 10px;
+//         align-self: center;
+//     }
+
+//     &__margin {
+//         margin-right: 30px;
+//     }
+// }
+
+.burger-position{
+    position: relative;
+}
+
+.burger-menu{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        padding-top: 21px;
+        padding-bottom: 21px;
+    }
+
+    .header__navigation{
+        display: flex;
+        margin-right: 101px;
+        margin-left: 83px;
+    }
+
+    .kontakt{
+        display: block;
+        margin: 0;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .kontakt {
+    color:var(--contacts-color);
+    font-style: normal;
+    }
+
+    .kontakt__icon {
         margin-right: 10px;
         align-self: center;
     }
 
-    &__margin {
+    .kontakt__margin {
         margin-right: 30px;
+    }
+
+    .burger-menu{
+        display: none;
     }
 }
