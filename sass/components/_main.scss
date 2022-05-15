@@ -1,8 +1,10 @@
 .main-content {
-    max-width: 1600px;
+    max-width: 100%;
     background-image:linear-gradient(var(--bg-overlay), var(--bg-overlay)), url("../images/studio/header-background.jpg");
     margin: 0px auto;
 }
+
+
 
 .main-content__header {
     font-size: 44px; 
@@ -71,13 +73,50 @@
 
 // what we do
 
+// .howto {
+//     display:flex;
+//     justify-content: space-between;
+// }
+
+
+// .howto__box {
+//     position: relative;
+// }
+
+// .howto__box > .howto__box--signatures {
+//     font-family: 'Roboto';
+//     font-style: normal;
+//     font-weight: 700;
+//     font-size: 14px;
+//     line-height: 16px;
+//     text-align: center;
+//     letter-spacing: 0.03em;
+//     text-transform: uppercase;
+//     color: var(--white-color);
+//     width: 100%;
+//     padding: 27px 0px;
+//     position: absolute;
+//     bottom: 0px;
+//     left:50%;
+//     transform: translateX(-50%);
+//     margin-bottom: 3px;
+//     background: rgba(47, 48, 58, 0.8);
+// }
+
 .howto {
     display:flex;
-    justify-content: space-between;
+    flex-direction: column;
+    // align-self: center;
+    align-items: center;
+    // justify-content: center;
+    // justify-self: center;
+    // justify-content: space-between;
+    
 }
 
 
 .howto__box {
+    display: block;
     position: relative;
 }
 
